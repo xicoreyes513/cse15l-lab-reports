@@ -2,4 +2,5 @@
 
 Testing, hello?
 
-![Image](/Users/xicoreyes/Documents/GitHub/cse15l-lab-reports/lab1sstesting.png)
+![Image2](/Users/xicoreyes/Documents/GitHub/cse15l-lab-reports/connectingToieng6.png)
+
