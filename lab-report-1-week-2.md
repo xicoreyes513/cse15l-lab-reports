@@ -2,5 +2,5 @@
 
 Testing, hello.
 
-![Image2](/Users/xicoreyes/Documents/GitHub/cse15l-lab-reports/connectingToieng6.png)
+![Image2](connectingToieng6.png)
 
