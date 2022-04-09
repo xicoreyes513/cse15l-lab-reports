@@ -58,11 +58,9 @@
   * ![Image](labReport1ss6.png)
 
 * To verify this, you can once again log into ieng6 with ssh again as described in the **Remotely Connecting** Step and use the "ls" command to see the moved file in the directory.
-
-* Now you can run the file using javac and java in the *ieng6 computer*. (As it is now in the *ieng6 computer shown by using the command ls)
   * ![Image](labReport1ss7.png)
 
-  * Note what is now printed in for the example "WhereAmI" class:
+* Note what is now printed in for the example "WhereAmI" class:
 
   * ![Image](labReport1ss8.png)
 
