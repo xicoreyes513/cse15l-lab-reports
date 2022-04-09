@@ -7,6 +7,7 @@
  * Install the appropriate VSCode version.
 
  * Open VSCode and its integrated terminal by doing (Ctrl + `, or use the Terminal -> New Terminal menu option).
+   * `Insert Image`
 
 ## Remotely Connecting
 
@@ -17,8 +18,7 @@
 * Now, to remotely connect use the opened terminal in VSCode to input this command 
   * $ ssh cs15lsp22zz@ieng6.ucsd.edu
 
-* If this is your first time connecting this will display
-  * `Add Image`
+* If this is your first time connecting you will be asked if you are sure you want to continue connecting. Input "yes" and enter your designated password for your cs15lsp22 account
 
 * Say yes and then give the password for your account. You have now connected. This should be displayed.
   * `Add Image`
@@ -28,11 +28,9 @@
  * Try some commands in the terminal.
    * cd ~
    * cd
-   * ls -lat
+   * ls
      * Ex: `Insert Image`
 
-
-   * ls -a
    * ls < directory > where < directory > is /home/linux/ieng6/cs15lsp22/cs15lsp22abc where "abc" is a directory other than your own
    * cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
    * cat /home/linux/ieng6/cs15lsp22/public/hello.txt
@@ -49,6 +47,7 @@
 * Run the file on *your computer* using the javac and java commands.
 
 * Note what is printing when the "WhereAmI" class is run on *your* computer.
+  * `Insert Image`
 
 * Now, to begin moving the file, run this command in your temrinal from the directory where you made this file
   * scp < WhereAmI.java > cs15lsp22zz@ieng6.ucsd.edu:~/
@@ -56,6 +55,7 @@
   * where < WhereAmI.java > is the file you wish to move.
 
 * You will be prompted for a password similar to when you logged in with ssh. Input your password and the file is now moved.
+  * `Insert Image`
 
 * To verify this, you can once again log into ieng6 with ssh again as described in the **Remotely Connecting** Step and use the "ls" command to see the moved file in the directory.
 
@@ -75,10 +75,11 @@
 ### How to do it
 
 * On the client (your computer), input the command
-  * $ ssh -keygen
+  * $ ssh-keygen
 
   * This should be displayed:
   * `Insert Image`
+  * Enter your own username where it prompts you to "Enter file in which to save the key:"
 
 * Do not add a passphrase this time, instead, press enter twice. 
   * Something like this should be displayed:
@@ -112,4 +113,7 @@
 * Use semicolons to run multiple commands on the same line in most terminals. 
 
 * Use the up-arrow on your keyboard to recall the last command that was run
+
+* Ex: 
+  *  `Insert Image`
 
