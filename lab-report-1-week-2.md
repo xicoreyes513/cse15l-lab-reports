@@ -16,9 +16,9 @@
 * Look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php)
 
 * Now, to remotely connect use the opened terminal in VSCode to input this command 
-  * $ ssh cs15lsp22zz@ieng6.ucsd.edu
+  * ` $ ssh cs15lsp22zz@ieng6.ucsd.edu `
 
-* If this is your first time connecting you will be asked if you are sure you want to continue connecting. Input "yes" and enter your designated password for your cs15lsp22 account
+* If this is your first time connecting you will be asked if you are sure you want to continue connecting. Input `yes` and enter your designated password for your cs15lsp22 account
 
 * Say yes and then give the password for your account. You have now connected. This should be displayed.
   * ![Image](labReport1ss2.png)
@@ -26,14 +26,14 @@
 ## Trying Some Commands
 
  * Try some commands in the terminal.
-   * cd ~
-   * cd
-   * ls
+   * ` cd ~ `
+   * `cd`
+   * `ls`
      * Ex: ![Image](labReport1ss3.png)
 
-   * ls < directory > where < directory > is /home/linux/ieng6/cs15lsp22/cs15lsp22abc where "abc" is a directory other than your own
-   * cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
-   * cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+   * `ls < directory >` where < directory > is `/home/linux/ieng6/cs15lsp22/cs15lsp22abc` and where "abc" is a directory other than your own
+   * `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`
+   * `cat /home/linux/ieng6/cs15lsp22/public/hello.txt`
 
    * (where hello.txt is an example text file in the directory)
 
@@ -46,21 +46,21 @@
 
 * Run the file on *your computer* using the javac and java commands.
 
-* Note what is printing when the "WhereAmI" class is run on *your* computer.
+* Note what is printing when the `WhereAmI` class is run on *your* computer.
   * ![Image](labReport1ss5.png)
 
 * Now, to begin moving the file, run this command in your temrinal from the directory where you made this file
-  * scp < WhereAmI.java > cs15lsp22zz@ieng6.ucsd.edu:~/
+  * `scp < WhereAmI.java > cs15lsp22zz@ieng6.ucsd.edu:~/`
 
-  * where < WhereAmI.java > is the file you wish to move.
+  * where < `WhereAmI.java` > is the file you wish to move.
 
 * You will be prompted for a password similar to when you logged in with ssh. Input your password and the file is now moved.
   * ![Image](labReport1ss6.png)
 
-* To verify this, you can once again log into ieng6 with ssh again as described in the **Remotely Connecting** Step and use the "ls" command to see the moved file in the directory.
+* To verify this, you can once again log into ieng6 with ssh again as described in the **Remotely Connecting** Step and use the `ls1` command to see the moved file in the directory.
   * ![Image](labReport1ss7.png)
 
-* Note what is now printed in for the example "WhereAmI" class:
+* Note what is now printed in for the example `WhereAmI` class:
 
   * ![Image](labReport1ss8.png)
 
@@ -74,28 +74,28 @@
 ### How to do it
 
 * On the client (your computer), input the command
-  * $ ssh-keygen
-  * Enter your own username where it prompts you to "Enter file in which to save the key:"
+  *  `$ ssh-keygen`
+  * Enter your own username where it prompts you to `Enter file in which to save the key:`
 
 * Do not add a passphrase this time, instead, press enter twice. 
   * Something like this should be displayed:
   * ![Image](labReport1ss9.png)
 
-* Note: If you are on Windows, follow the extra "ssh -add" steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) **or** do command
-  *  ssh-keygen -t ed25519
+* Note: If you are on Windows, follow the extra `ssh -add"` steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) **or** do command
+  *  `ssh-keygen -t ed25519`
 
 * Now, the private key (in a file "id_rsa") and the public key (in a file "id_rsa.pub") are stored in your system in the .ssh directory. 
 
 * Now copy the *public* key to the .ssh directory of your user account on the server using
-  * $ ssh cs15lsp22zz@ieng6.ucsd.edu
+  * `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
   * Enter your password.
 
 * Now on the server, do input this command.
-  * $ mkdir.ssh
+  * `$ mkdir.ssh`
   * < logout >
 
 * Now logged-out and back on the client input the command.
-  * $ scp /Users/< user-name >/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+  * `$ scp /Users/< user-name >/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
   * Where < user-name > is your individual username on your computer.
   * ![Image](labReport1ss10.png)
 
