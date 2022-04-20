@@ -16,7 +16,7 @@
 * Look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php)
 
 * Now, to remotely connect use the opened terminal in VSCode to input this command 
-  * ` $ ssh cs15lsp22zz@ieng6.ucsd.edu `
+  * `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
 
 * If this is your first time connecting you will be asked if you are sure you want to continue connecting. Input `yes` and enter your designated password for your cs15lsp22 account
 
@@ -26,7 +26,7 @@
 ## Trying Some Commands
 
  * Try some commands in the terminal.
-   * ` cd ~ `
+   * `cd ~`
    * `cd`
    * `ls`
      * Ex: ![Image](labReport1ss3.png)
