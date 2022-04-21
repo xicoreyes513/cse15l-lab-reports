@@ -112,6 +112,13 @@
 
 * Use the up-arrow on your keyboard to recall the last command that was run
 
-* Ex: 
+* In this example we will run a new file named "WhereAmI2" on the remote server. Using the shortcuts described above, we were  able to use the up arrow to recall previous commands, combine those commands, and run the file using the ssh key.
+
+* By doing this, this took 5 keystrokes to recall and combine commands, and 9 keystrokes to type out the file name.
+
+* To compare, this previously would have taken us 78 total keystrokes 
+
+* Ex of optimized remote running shown here: 
   *  ![Image](labReport1ss12.png)
+
 
