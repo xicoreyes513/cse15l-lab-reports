@@ -4,7 +4,8 @@
 
 *Hello World!*
 
-**Hello!**
+
+[Link to Lab Report 2](https://xicoreyes513.github.io/cse15l-lab-reports/lab-report-2/lab-report-2-week-4.html)
 
 [Link to Lab doc](https://docs.google.com/document/d/1fAMGP3gyV0vDVzn-1xGr-na3Rw1NpOxxHK4WpaWOITk/edit)
 
