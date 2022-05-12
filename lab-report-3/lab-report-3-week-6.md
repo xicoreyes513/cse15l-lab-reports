@@ -18,9 +18,9 @@
 
 * Where the private key is stored on my user account 
   * ![Image](2.2.png)
-* Git command to commit and push a change to Github while logged into ieng6
-  * 
-* [Link for the resulting commit](https://github.com/xicoreyes513/markdown-parser-copy/commit/eb2fad18e33c4708c1b4a1672df9656bf790ead5)
+* Git command to commit and push a change to lab report to Github while logged into ieng6
+  * ![Image](2.31.png)
+* [Link for the resulting commit](https://github.com/xicoreyes513/cse15l-lab-reports/commit/e02576083d3f448eb5300a133359a8de9f762569)
 
 ## Copy whole directories with `scp -r`
 
