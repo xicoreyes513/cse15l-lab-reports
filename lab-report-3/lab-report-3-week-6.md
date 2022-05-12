@@ -20,7 +20,7 @@
   * ![Image](2.2.png)
 * Git command to commit and push a change to lab report to Github while logged into ieng6
   * ![Image](2.31.png)
-* [Link for the resulting commit](https://github.com/xicoreyes513/cse15l-lab-reports/commit/e02576083d3f448eb5300a133359a8de9f762569)
+* [Link for the resulting commit](https://github.com/xicoreyes513/cse15l-lab-reports/commit/4aad07dda70e21ceee1eb912a9cc7bf6ebd893bf)
 
 ## Copy whole directories with `scp -r`
 
