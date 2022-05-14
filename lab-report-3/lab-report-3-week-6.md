@@ -19,7 +19,7 @@
 * Where the private key is stored on my user account 
   * ![Image](2.2.png)
 * Git command to commit and push a change to lab report to Github while logged into ieng6
-  * ![Image](2.31.png)
+  * ![Image](2.3.png)
 * [Link for the resulting commit](https://github.com/xicoreyes513/cse15l-lab-reports/commit/4aad07dda70e21ceee1eb912a9cc7bf6ebd893bf)
 
 ## Copy whole directories with `scp -r`
@@ -28,5 +28,6 @@
   * ![Image](3.1.png)
 * Loggin in to ieng6 and compiling the tests 
   * ![Image](3.2.png)
-* Combining `scp`, `;`, and `ssh`
+* Combining `scp`, `;`, `ssh`, and `""`
   * ![Image](3.3.png)
+  * ![Image](3.30.png)
