@@ -1,5 +1,10 @@
 # Lab Report 4 Week 8
 
+
+[Link to my repository of MarkdownParse](https://github.com/xicoreyes513/markdown-parser-copy)
+
+[Link to MarkdownParse reviewed in Week 7](https://github.com/Barakar13/markdown-parser)
+
 ## Snippet 1
 
 * This snippet should have produced ``[`google.com, google.com, ucsd.edu]``
